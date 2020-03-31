@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE newspaper
+[
+<!ELEMENT newspaper (article)+>
+<!ELEMENT article (headline,byline,lead,body,notes)>
+<!ELEMENT headline (#PCDATA)>
+<!ELEMENT byline (#PCDATA)>
+<!ELEMENT lead (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT notes (#PCDATA)>
+
+<!ATTLIST article 
+author CDATA #REQUIRED
+editor CDATA #IMPLIED
+date CDATA #IMPLIED
+edition CDATA #IMPLIED>
+
+<!ENTITY newspaper "NOVINE">
+<!ENTITY publisher "IZDAVAC">
+<!ENTITY copyright "AUTORSKAPRAVA">
+]>
+<newspaper>
+	<article author="autor" editor="editor123" date="24.3.1234." edition="edicija123">
+		<headline></headline>
+		<byline></byline>
+		<lead></lead>
+		<body></body>
+		<notes></notes>
+	</article>
+	<article>
+		<headline></headline>
+		<byline></byline>
+		<lead></lead>
+		<body></body>
+		<notes></notes>
+	</article>
+</newspaper>
