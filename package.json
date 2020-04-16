@@ -1,0 +1,19 @@
+{
+  "name": "vezba5",
+  "version": "1.0.0",
+  "description": "Prva NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milorad374/Vezbe.git"
+  },
+  "author": "Milorad Simic NRT8217",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milorad374/Vezbe/issues"
+  },
+  "homepage": "https://github.com/milorad374/Vezbe#readme"
+}
